@@ -1,0 +1,138 @@
+body{
+    background-image: radial-gradient(circle, rgba(0,0,0,0) 5%, rgba(0,0,0,0.8) 70%), url('page.jpg');
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    color:white;
+}
+
+p{
+    font-size: 0.9rem;
+}
+h1{
+    font-size: 1.7rem;
+}
+.center-div{
+ padding: 30px 0px 170px 0px;
+ background-color: rgba(0, 0, 0, 0.808);
+ color:white;
+ width:400px;
+ margin: 100px auto 50px auto;
+ text-align: center;
+}
+
+input{
+    background-color: rgba(37, 32, 32, 0.651);
+    outline: none;
+    width: 300px;
+    height: 55px;
+    border-color: grey;
+    border-style:solid;
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+input::placeholder {
+    color:rgb(158, 154, 154);
+    font-size: 1rem;
+}
+
+.sign-in-btn{
+    color: white;
+    transition: background-color 0.3s;
+    font-size: 0.9rem;
+    font-weight: bold;
+    width:320px;
+    height:45px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: rgb(238, 12, 12);
+}
+.sign-in-btn:hover{
+    background-color: rgb(214, 36, 36);
+    transition-delay: 0s;
+}
+
+.other-button{
+    background-color: rgba(112, 106, 106, 0.5);
+    color: white;
+    transition: background-color 0.3s;
+    font-size: 0.9rem;
+    font-weight: bold;
+    width:320px;
+    height:45px;
+    border-style: none;
+    border-radius: 5px;
+}
+.other-button:hover{
+    background-color:rgba(44, 41, 41, 0.5);
+    transition-delay: 0s;
+}
+
+.checkbox{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+.new{
+    margin:5% 10%;
+    text-align: left;
+}
+.sign-up{
+   text-decoration: none;
+   font-weight: bold;
+   color:inherit;
+}
+.sign-up:hover{
+    text-decoration: underline;
+}
+
+.this-p{
+    color:rgb(172, 168, 168);
+    margin:5% 10%;
+    text-align: left;
+    font-size: 0.8rem;
+}
+.learn-more{
+    text-decoration: none;
+    color:blue;
+}
+.learn-more:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-div{
+    display:flex;
+    justify-content:space-between;
+    padding: 100px 150px;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+.box{
+    text-align: left;
+    
+}
+.box > a {
+    text-decoration: underline;
+    color:rgb(172, 168, 168);
+}
+.box > a > p{
+ color:rgb(172, 168, 168);
+ font-size: 0.8rem;
+}
+
+.lang-button{
+    color: rgb(214, 202, 202);
+    font-size: 1rem;
+    width:120px;
+    height: 30px;
+    border-style: solid;
+    border-color: rgb(143, 130, 130);
+    border-width: 0.5px;
+    border-radius: 5px;
+    background-color: transparent;
+}

@@ -1,0 +1,202 @@
+body{
+   background-color: black;
+   color:white;
+   font-family: Verdana, Tahoma, sans-serif;
+   text-align: center;
+}
+.logo-img{
+    width: 150px;
+    height:100%
+}
+.sign-button{
+    color: white;
+    font-size: 0.9rem;
+    width:80px;
+    height: 35px;
+    border-color: red;
+    border-radius: 5px;
+    background-color: red;
+}
+ hr{
+    margin: none;
+    height:7px;
+    background-color:rgb(34, 32, 32);
+    border: none;
+    top:0;
+    padding:0;
+    width:100%;
+    left:0;
+}
+h1{
+    font-weight: bold;
+   /* font-size: 3rem;*/
+   font-size: 45px;
+}
+p{
+    font-size: 1.4rem;
+}
+a{
+    text-decoration: underline;
+    color:rgb(158, 154, 154);
+}
+input{
+    background-color: rgba(37, 32, 32, 0.651);
+    outline: none;
+    width: 400px;
+    height: 60px;
+    border-color: grey;
+    border-style:solid;
+    border-radius: 5px;
+    border-width: 1px;
+    font-size: 16px;
+    text-align: left;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+input::placeholder {
+    color:rgb(158, 154, 154);
+}
+.red-button{
+    color: white;
+    transition: background-color 0.3s;
+    font-size: 1.4rem;
+    width:190px;
+    height: 60px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: red;
+}
+.red-button:hover{
+    background-color: rgb(214, 36, 36);
+    transition-delay: 0s;
+}
+
+.first-row{
+  height:700px;
+  background-image:radial-gradient(circle, rgba(0,0,0,0) 5%, rgba(0,0,0,0.8) 70%), url('page.jpg');
+  background-size: cover;
+}
+.nav-div {
+    padding: 20px 150px 120px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.row-content {
+    padding: 70px;
+}
+.row-content h1{
+    text-align: center;
+}
+
+.second-row{
+   height: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding:100px 120px;
+}
+.second-row-gif{
+    height:336.375px; /* because the dimension of the gif is 400 x 299 */
+    width:450px;
+}
+.second-row-content{
+    margin-right: 60px;
+}
+.second-row-content > p,h1 {
+    text-align: left;
+}
+
+.third-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 130px;
+}
+ .third-row-image{
+    height: 360px;
+    width: 480px;
+ }
+.third-row-content > p,h1{
+ text-align: left;
+}
+
+.fourth-row{
+    display:flex;
+    justify-content: left;
+    padding: 25px 600px 60px 250px;
+}
+.fourth-row-content > p,h1{
+    text-align: left;
+}
+.fifth-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 65px 140px;
+}
+.fifth-row-image{
+    height: 360px;
+    width: 480px;
+ }
+.fifth-row-content > p,h1{
+    text-align: left;
+}
+
+  /*LOL , so I never needed to style the sixth parent div*/
+.sixth-row{
+    padding: 50px 60px;
+}
+.sixth-row > h1 {
+    text-align: center;
+}
+span{
+    margin:auto 0;
+    font-size: 3rem;
+    font-family: lighter;
+}
+.box{ 
+    display: flex;
+    justify-content: space-between;
+    width:83%;
+    background-color: rgba(54, 51, 51, 0.836);
+    transition:background-color 0.5s;
+    margin:1% auto;
+    padding:5px 20px;
+    text-align: left;
+} /*honestly, i am still shocked that this code could center those divs and size them perfectly , LOL*/
+.box:hover{
+    background-color:rgb(80, 76, 76);
+    transition-delay:0s;
+}
+.box > p{
+    font-size: 23px;
+}
+
+.footer-div{
+    display:flex;
+    justify-content:space-between;
+    padding: 40px 150px;
+}
+.p-div{
+    text-align: left;
+}
+
+.foot-box {
+   text-align: left;
+}
+.foot-box > a > p{
+    font-size: 0.9rem;
+}
+.lang-button{
+    color: rgb(214, 202, 202);
+    font-size: 1rem;
+    width:120px;
+    height: 30px;
+    border-style: solid;
+    border-color: rgb(143, 130, 130);
+    border-width: 0.5px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+
+.firstbox{
+    height: 70px;
+}
